@@ -2,23 +2,23 @@
 
 <p align="center">TerraCustos is a passionately developed application that connects people's collective efforts in nature conservation and sustainability.</br>
   The app aims to inspire and encourage people to protect and care for our Earth, while enabling them to actively participate in preserving the environment,
-  all while fostering a closer connection to nature through the experiences gained during their journeys.</p>
+  all while fostering a closer connection to nature through the experiences gained during their journeys.</p></br>
 
-## <p align="center">Key Features</p>
+### <p align="center">Key Features</p>
 
-### <p align="center">Registration and login for community engagement.</p>
-### <p align="center">Discover and join sustainable hikes and events.</p>
-### <p align="center">Share your experiences and thoughts on nature conservation within the community.</p>
-### <p align="center">Publish posts, articles, and guides on sustainability.</p>
+<p align="center">Registration and login for community engagement.</p>
+<p align="center">Discover and join sustainable hikes and events.</p>
+<p align="center">Share your experiences and thoughts on nature conservation within the community.</p>
+<p align="center">Publish posts, articles, and guides on sustainability.</p></br>
 
-<p align="center">Thank you for your interest in TerraCustos! Join us and be a part of an inspiring community that collaborates for the preservation of nature and sustainability.</p>
+_<p align="center">Thank you for your interest in TerraCustos! Join us and be a part of an inspiring community that collaborates for the preservation of nature and sustainability.</p>_
 
 ## Technologies
 
 - **Programming language:** C#
 - **Framework:** ASP.NET Web API
-- **Database:** (MSSQL Server)
-- **Authentication and User Management:** JWT (JSON Web Tokens)
+- **Database:** MSSQL Server
+- **Authentication and User Management:** Identity Core, JSON Web Tokens
 - **Data Handling:** Entity Framework
 - **Map and Location Data:** Mapping API (Google Maps)
 - **Version Control:** Git (GitHub)
@@ -41,4 +41,4 @@ For administrative tasks and managing the TerraCustos application, refer to the 
 
 - [Contributing Guidelines](/CONTRIBUTING.md): If you'd like to contribute to the project, please read our contributing guidelines.
 
-Thank you for choosing TerraCustos as your eco-friendly hiking companion! Feel free to reach out with any questions or feedback.
+_Thank you for choosing TerraCustos as your eco-friendly hiking companion! Feel free to reach out with any questions or feedback._
