@@ -1,6 +1,6 @@
-# <p align="center">`TerraCustos`</br></br>Nature Conservation and Sustainability Tour App</p>
+# <p align="center">`TerraCustos`</br></br>Nature Conservation and Sustainability Tour App </br>ASP.NET Web API</p>
 
-### <p align="center">_Welcome to the TerraCustos project's GitHub page!_</p>
+
 </br>
 <p align="center">TerraCustos is a passionately developed application that connects people's collective efforts in nature conservation and sustainability.</br>
   The app aims to inspire and encourage people to protect and care for our Earth, while enabling them to actively participate in preserving the environment,
