@@ -1,13 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using terra_custos_aspnet_web_api.DbContexts;
 using terra_custos_aspnet_web_api.IRepositories;
 
 namespace terra_custos_aspnet_web_api.Repositories
 {
-    public abstract class GenericRepository<T, TContext> : IGenericRepository<T> where T : class where TContext : DbContext
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        protected readonly TContext _context;
+        protected readonly TerraCustosContext _context;
 
-        public GenericRepository(TContext context)
+        public GenericRepository(TerraCustosContext context)
         {
             _context = context;
         }
