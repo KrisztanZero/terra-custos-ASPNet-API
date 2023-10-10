@@ -7,6 +7,6 @@ namespace terra_custos_aspnet_web_api.DbContexts
     public class TerraCustosContext : IdentityDbContext
     {
         public TerraCustosContext(DbContextOptions option) : base(option) { }
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> AppUsers { get; set; }
     }
 }
