@@ -1,13 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using terra_custos_aspnet_web_api.DbContexts;
 using terra_custos_aspnet_web_api.IRepositories;
 using terra_custos_aspnet_web_api.Models;
-using terra_custos_aspnet_web_api.Repositories;
 
 namespace terra_custos_aspnet_web_api.Repositories
 {
-    public class UserRepository : GenericRepository<User, TerraCustosContext>, IUserRepository
+    public class UserRepository : GenericRepository<User>, IUserRepository
     {
         public UserRepository(TerraCustosContext context) : base(context)
         {
